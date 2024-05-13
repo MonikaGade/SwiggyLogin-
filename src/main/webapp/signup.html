@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container"><form action="submitdetails" method="post" class="form m-4">
+	<h2>Create a new account</h2>
+		<input type="text" name="firstName" placeholder="firstName" class="form-control"><br>
+		<input type="text" name="surname" placeholder="surname" class="form-control"><br>
+		<input type="text" name="emailorphone" placeholder="email or phone number" class="form-control"><br>
+		<input type="password" name="password" placeholder="New password" class="form-control"><br>
+		<label for="dob">Date of birth</label>
+		<input type="date" name="dob" id="dob" class="form-control"><br>
+		<label class="form-label">Gender</label>
+		<br>
+		<label for="f" class="form-label">Female</label>
+		<input type="radio" name="gender" value="female" id="f" class="form-radio">
+		<label for="m" class="form-label">Male</label>
+		<input type="radio" name="gender" value="male" id="m" class="form-radio">
+		<label for="c" class="form-label">Custom</label>
+		<input type="radio" name="gender" value="custom" id="c" class="form-radio">
+		<br>
+		<input type="submit" value="signup" class="btn btn-primary">
+		<br>
+		<a href="login.html">Already have a account</a>
+	</form></div>
+</body>
+</html>
